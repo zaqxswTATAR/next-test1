@@ -1,5 +1,5 @@
 # next-test1
-NextJS Restaurant around Yaowarat web-application
+Restaurant around Yaowarat web-application
 
 ## Project setup
 [NodeJS Download](https://nodejs.org)  
