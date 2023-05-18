@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Nav, Navbar, Button, Form } from 'react-bootstrap'
+import { Container, Nav, Navbar, Button, Form, Image } from 'react-bootstrap'
 import { useAuth } from '@/context/AuthContext'
 import { useRouter } from 'next/router'
 
@@ -19,7 +19,7 @@ const NavbarComp = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="/">NextJS Test</Navbar.Brand>
+        <Navbar.Brand href="/"><Image src="/nextjs-icon.svg" width="100" height="100" alt="NextJS logo" className="p-2"/>NextJS Test</Navbar.Brand>
         <Nav className="mr-auto">
           {user ? (
             <div
