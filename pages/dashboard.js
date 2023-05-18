@@ -11,7 +11,7 @@ const Dashboard = () => {
   const [listData, setListData] = useState([]);
 
   const getListData = () => {
-    axios.get('http://localhost:4000/api/restaurants').then(res => {
+    axios.get('https://back-nodejs2.vercel.app/api/restaurants').then(res => {
       setListData(res.data)
     }).catch((err) => {
       console.log(err)
